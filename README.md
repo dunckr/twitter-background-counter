@@ -27,7 +27,7 @@ open http://`docker-machine ip dev`:3000
 make status
 ```
 
-#### ENV Variables
+## ENV Variables
 
 * TWITTER_CONSUMER_KEY
 * TWITTER_CONSUMER_SECRET

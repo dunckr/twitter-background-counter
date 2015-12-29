@@ -27,6 +27,13 @@ open http://`docker-machine ip dev`:3000
 make status
 ```
 
+#### ENV Variables
+
+* TWITTER_CONSUMER_KEY
+* TWITTER_CONSUMER_SECRET
+* TWITTER_ACCESS_TOKEN
+* TWITTER_ACCESS_TOKEN_SECRET
+
 ## License
 
 MIT © [Duncan Beaton](http://dunckr.com)

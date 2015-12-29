@@ -1,8 +1,8 @@
 Twit = require "twit"
-Constants = require "../private/constants"
+Constants = require "./constants"
+URL = "account/update_profile_banner"
 
-module.exports = (body, cb) ->
+module.exports = (data, cb) ->
+  b64 = data.replace "data:image/png;base64,", ""
   T = new Twit(Constants)
-  b64 = new Buffer(body).toString("base64")
-  URL = "account/update_profile_banner"
   T.post URL, banner: b64, -> cb()

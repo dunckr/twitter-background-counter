@@ -1,7 +1,7 @@
 {
-  "name": "avatar-updater",
+  "name": "twitter-background-counter",
   "version": "1.0.0",
-  "description": "update social profile avatar",
+  "description": "Twitter profile background image counter",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -L --watch lib --watch app.coffee app.coffee"
@@ -13,6 +13,6 @@
     "cheerio": "^0.19.0",
     "express": "^4.13.3",
     "request": "^2.67.0",
-    "twit": "^2.1.1"
+    "tweet": "0.0.0"
   }
 }

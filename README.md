@@ -1,6 +1,8 @@
-# Docker-Compose Express Boilerplate
+# Twitter Background Counter
 
-Dockerised starter example express app. Includes optional Makefile commands.
+![Example](https://raw.githubusercontent.com/dunckr/twitter-background-counter/master/example.jpg)
+
+Twitter profile background banner click counter.
 
 ## Install
 
@@ -23,13 +25,6 @@ open http://`docker-machine ip dev`:3000
 
 ```sh
 make status
-```
-
-## Test
-
-```sh
-make cli
-npm run test
 ```
 
 ## License
